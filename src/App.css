@@ -1,0 +1,99 @@
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App{
+  background-image: linear-gradient(rgb(199, 165, 165),rgb(25, 49, 187),rgb(143, 143, 42));
+  min-height: 100vh;
+  padding: 5px;
+}
+.App-header{
+  justify-content: center;
+  display:flex;
+  flex-wrap: wrap;
+}
+.login{
+  padding:1.2rem;
+  margin: auto;
+ min-height: fit-content;
+  min-width: fit-content; 
+  /* max-width: 400px; */
+  color:cornsilk;
+  background-color:rgb(14, 5, 4);
+  background-image:linear-gradient(rgb(11, 51, 112),blue);
+  border-radius:5%;
+}
+.cards_product{
+  display:"flex";
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top:10%;
+  padding:1.2rem;
+  height:100%;
+  width: 100%;
+  background-color: aliceblue;
+  box-shadow:5px 10px 5px 5px rgb(132, 143, 209);
+  border-radius:5px;
+ 
+}
+.boxmap{
+  justify-content:center;
+  display:flex;
+  flex-wrap: wrap;
+}
+.box{
+  height:200px;
+  width:200px;
+  margin:20px;
+}
+.cardimage{
+  object-fit: contain;
+  height:50px;
+  width:50px
+}
+.add{
+  padding:1rem;
+  margin-top:30px;
+  max-height: fit-content;
+  min-width: fit-content; 
+  width: 600px; 
+  color:cornsilk;
+  background-image:linear-gradient(rgb(11, 51, 112),blue);
+
+  /* background-image: linear-gradient(to right,rgb(48, 4, 4),orange,blue,indigo,rgb(14, 1, 14)); */
+
+  border-radius:5%;
+}
+.submit:hover{
+ background-color: rgb(213, 214, 115);
+}
+.container {
+  background-color:blueviolet;
+  margin:5px;
+  border:2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.content{
+  padding:4px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
